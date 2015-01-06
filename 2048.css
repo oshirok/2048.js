@@ -1,0 +1,60 @@
+#scorearea {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 128px;
+	background: silver;
+}
+
+#scorearea p {
+	margin: 0;
+	padding: 0;
+}
+
+#score {
+	font-size: 36px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#puzzlearea {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 400px;
+	background: black;
+}
+
+table {
+    width: 400px;
+    height: 400px;
+	border: 1px solid black;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background: white;
+	text-align: center;
+	font-size: 48px;
+	
+	border: 1px solid black;
+}
+
+
+#controls {
+	width: 128px;
+	height: 48px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#controls #shufflebutton {
+	width: 128px;
+	height: 48px;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<!--
+	CSE 154, Homework 8: Fifteen Puzzle
+	You should not modify fifteen.html.  Your JS code should work with an
+	unmodified version of this file.
+	-->
+	<head>
+		<title>Javascript 2048 Puzzle</title>
+
+		<link href="https://webster.cs.washington.edu/images/fifteen/fifteen.gif"
+		      type="image/gif" rel="shortcut icon" />
+
+		<!-- your files that you will write -->
+		<link href="2048.css" type="text/css" rel="stylesheet" />
+		<script src="2048.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<h1>Javascript 2048 Puzzle</h1>
+
+		<p>
+			The goal of the 2048 puzzle is to slide numbers together to make even larger ones.
+			How high can you get?
+		</p>
+		<div id='scorearea'><p>Score</p><p><div id='score'>0</div></p></div>
+		<div id="puzzlearea">
+		<!--
+			this area holds the actual fifteen puzzle pieces
+			add to it as you need to
+		-->		
+		<table><tr><td id='c0'></td><td id='c1'></td><td id='c2'></td><td id='c3'></td></tr>
+            <tr><td id='c4'></td><td id='c5'></td><td id='c6'></td><td id='c7'></td></tr>
+            <tr><td id='c8'></td><td id='c9'></td><td id='c10'>ubuntu</td><td id='c11'></td></tr>
+            <tr><td id='c12'></td><td id='c13'></td><td id='c14'></td><td id='c15'></td></tr>
+            </table>
+		</div>
+
+		<p id="controls">
+			<button id="shufflebutton">Shuffle</button>
+		</p>
+		
+		<div id="output"></div>
+	</body>
+</html>
